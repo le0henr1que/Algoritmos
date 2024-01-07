@@ -196,3 +196,13 @@ console.time("Pesquisa binaria");
 const resultadoBinario = buscaBinaria(arrayDeObjetos, "Leo");
 console.log(arrayDeObjetos[resultadoBinario]);
 console.timeEnd("Pesquisa binaria");
+
+// um lista com 100 itens -> 50 -> 25 -> 13 -> 7 -> 4 -> 2 -> 1 = 7 passos
+
+// uma lista com 128 itens -> 63 -> 32 -> 16 -> 8 -> 4 -> 2 -> 1 = 7 passos
+
+// uma lista com 256 itens -> 128 -> 64 -> 32 -> 16 -> 8 -> 4 -> 2 -> 1 = 8 passos
+
+// A pesquisa binaria é executada com tempo logaritmico, ou seja, o tempo de execução cresce de forma logaritmica em relação ao tamanho da lista.
+
+// tempo de execucao linear O(n) - tempo de execucao logaritmico O(log n)
